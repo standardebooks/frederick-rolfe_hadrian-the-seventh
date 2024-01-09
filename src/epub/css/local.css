@@ -37,6 +37,12 @@ blockquote[xml|lang]{
 }
 /* end language styling */
 
+/* quote */
+q{
+	font-style: italic;
+}
+/* end quote */
+
 /* letters */
 footer{
 	margin-top: 1em;
@@ -90,14 +96,22 @@ section[epub|type~="z3998:subchapter"] + p{
 /* special datelines */
 #prologue-3 > p{
 	margin-top: 1em;
-	text-align:initial;
+	text-align: initial;
 	text-indent: 0;
 }
 /* end special datelines */
 
-/* ending footer */
-#chapter-24 footer{
+/* last line */
+#chapter-24 p:last-child{
 	margin-top: 2em;
-	text-align:center;
+	text-align: center;
+	text-indent: 0;
 }
-/* end ending footer */
+/* end last line */
+
+/* dedication */
+#dedication p{
+	font-variant: small-caps;
+	text-align: center;
+}
+/* end dedication */
