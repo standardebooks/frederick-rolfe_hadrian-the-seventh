@@ -67,6 +67,7 @@ footer{
 
 #chapter-11 blockquote > p:nth-child(2) {
 	margin-top: 1em;
+	text-indent: 1em;
 }
 
 #chapter-11 blockquote > p:nth-child(4) {
