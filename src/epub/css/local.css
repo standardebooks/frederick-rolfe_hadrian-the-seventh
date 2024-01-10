@@ -116,3 +116,9 @@ section[epub|type~="z3998:subchapter"] + p{
 	text-align: center;
 }
 /* end dedication */
+
+/* preface */
+section[epub|type~="preface"]{
+	margin-top: 20vh;
+}
+/* end preface */
