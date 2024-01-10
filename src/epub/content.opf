@@ -28,6 +28,16 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Hadrian the Seventh</dc:title>
 		<meta property="file-as" refines="#title">Hadrian the Seventh</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="title-short">Hadrian VII</dc:title>
+		<meta property="file-as" refines="#title-short">Hadrian VII</meta>
+		<meta property="title-type" refines="#title-short">short</meta>
+		<dc:title id="subtitle">A Romance</dc:title>
+		<meta property="file-as" refines="#subtitle">Romance, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Hadrian the Seventh: A Romance</dc:title>
+		<meta property="file-as" refines="#fulltitle">Hadrian the Seventh: A Romance</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Humorous stories</dc:subject>
 		<dc:subject id="subject-2">Authors -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Eccentrics and eccentricities -- Fiction</dc:subject>
@@ -40,37 +50,46 @@
 		<meta property="term" refines="#subject-3">sh2008102513</meta>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh2010107501</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">A long-suffering English seminarian is unexpectedly elected as the next Pope.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;George Arthur Rose aspired to the priesthood, but was much abused and taken advantage of for many years. He is disillusioned with humanity, especially from mistreatment by his Catholic brothers. He is rediscovered and called upon as the secret conclave in Rome is deadlocked in the election of a new Pope. A compromise results in Rose being chosen for this office, and he styles himself as &lt;a href="https://standardebooks.org/ebooks/frederick-rolfe/hadrian-the-seventh"&gt;&lt;i&gt;Hadrian the Seventh&lt;/i&gt;&lt;/a&gt;. With his new moral authority, he implements church reforms and a program to bring Christian order mainly to the European and American nations.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/frederick-rolfe"&gt;Frederick Rolfe&lt;/a&gt; was considered an eccentric in his time, and it shows in this book, with his idiosyncratic spellings (Xystine Chapel), and made-up words such as “contortuplications” and “occession.” His novel is considered an example of wish-fulfillment, reflecting Rolfe’s vision of how the world should be. Written before the world wars and increasing secularization of the twentieth century, it was perhaps almost realistic to think that a religious figure could get everyone on the same program merely by moral persuasion.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/67369</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://catalog.hathitrust.org/Record/001424504</dc:source>
+		<meta property="se:production-notes">Chapter 7 occurs twice in the original printing. This was determined to be a mistake, and the chapters were renumbered.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Hadrian_the_Seventh</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/frederick-rolfe_hadrian-the-seventh</meta>
 		<dc:creator id="author">Frederick Rolfe</dc:creator>
 		<meta property="file-as" refines="#author">Rolfe, Frederick</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Frederick William Rolfe</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Frederick_Rolfe</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80044733</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<dc:contributor id="artist">Jean-Paul Laurens</dc:contributor>
+		<meta property="file-as" refines="#artist">Laurens, Jean-Paul</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Jean-Paul_Laurens</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr97017608</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Tim Lindell</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Lindell, Tim</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">Graeme Mackreth</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Mackreth, Graeme</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-3">https://pgdp.net</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Jason Livermore</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Livermore, Jason</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.linkedin.com/in/jason-livermore-b854a97</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
