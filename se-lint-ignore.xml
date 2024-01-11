@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-11.xhtml">
+		<ignore>
+			<code>c-015</code>
+			<reason>Special format</reason>
+		</ignore>
+	</file>
+	<file path="prologue.xhtml">
+		<ignore>
+			<code>t-033</code>
+			<reason>Hanging hyphens</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
