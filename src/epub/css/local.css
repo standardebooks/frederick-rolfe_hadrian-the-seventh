@@ -128,3 +128,9 @@ section[epub|type~="preface"]{
 	margin-top: 20vh;
 }
 /* end preface */
+
+/* era format */
+abbr[epub|type~="se:era"]{
+	font-variant: all-small-caps;
+}
+/* end era format */
