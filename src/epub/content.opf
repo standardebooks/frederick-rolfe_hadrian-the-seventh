@@ -64,7 +64,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/67369</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/001424504</dc:source>
 		<meta property="se:production-notes">Chapter 7 occurs twice in the original printing. This was determined to be a mistake, and the chapters were renumbered.</meta>
-		<meta property="se:word-count">125111</meta>
+		<meta property="se:word-count">123890</meta>
 		<meta property="se:reading-ease.flesch">64.3</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Hadrian_the_Seventh</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/frederick-rolfe_hadrian-the-seventh</meta>
